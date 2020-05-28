@@ -97,7 +97,6 @@
   </ons-page>
 </template>
 
-
 <template id="page_home.html">
 <ons-page id="page_home" modifier="white_background">
  
@@ -106,6 +105,7 @@
   
 </ons-page>
 </template>
+
 
 <template id="splitter.html">
 <ons-splitter>
@@ -170,11 +170,16 @@
         </ons-toolbar-button>
     </div>
     
-    <div class="center app_title">     
-    </div>
+    <div class="center">
+	
+	<ons-icon>
+          <img class="logo-app" src="images/logo-1.png">
+        </ons-icon></div>
+	
     
     <div class="right">
-        <ons-toolbar-button onclick="showPage('search_category.html')">
+	
+	      <ons-toolbar-button onclick="showPage('search_category.html')">
           <ons-icon icon="md-search" size="25px" ></ons-icon>
         </ons-toolbar-button>        
         <ons-toolbar-button onclick="showNotificationPage()">

@@ -61,7 +61,7 @@ margin-top:180px;
 }
 
 .toolbar--transparent_toolbar{
-background:#fff;
+background:#36b900;
 color:#000;
 }
 
@@ -70,7 +70,7 @@ color:#000;
 }
 
 .toolbar--transparent_toolbar .toolbar-button{
-color:#000;
+color:#fff;
 }
 
 .line-yellow{
@@ -1084,7 +1084,7 @@ color:#ada7a3;
 }
 .toolbar{
 box-shadow:none;
-border-bottom: 1px solid #E8E8E8;
+border-bottom: 1px solid #79ad1a;
 }
 .tabbar{
 box-shadow:none;
@@ -1397,7 +1397,9 @@ opacity: 0;
 opacity: 1; 
 transition: opacity 500ms ease;
 }
-
+.logo-app {
+max-height: 40px;
+   padding: 8px 0;}
 .xxsmall-loader .spinner{
 height: 18px;
 width: 18px;
